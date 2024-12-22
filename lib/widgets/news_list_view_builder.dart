@@ -33,7 +33,7 @@ class _NewsListViewBuilderState extends State<NewsListViewBuilder> {
           );
         } else {
           return SliverToBoxAdapter(
-            child: CircularProgressIndicator(),
+            child: Center(child: CircularProgressIndicator()),
           );
         }
       },
